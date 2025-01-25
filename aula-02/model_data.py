@@ -12,11 +12,6 @@ class AnimalIn(BaseModel):
     type:str
     color:str
 
-class Usuario(BaseModel):
-    name:str
-    idade:int
-    altura:float
-
 app = FastAPI()
 
 animais = []
@@ -29,10 +24,3 @@ def get_all_animais():
 def create_new_animal(animal:AnimalIn)->MenssageOut:
     animais.append(animal.model_dump())
     return{'menssage' : 'Animal cadastrado com sucesso'}
-@app.get('/usuario')
-def get_usuario():
-    return usuarios
-@app.post('/usuario')
-def create_usuario(usuario:Usuario)->MenssageOut:
-    usuarios.append(usuario.model_dump())
-    return{'menssage':'Usuario cadastrado com sucesso'}
