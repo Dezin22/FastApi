@@ -1,0 +1,14 @@
+[project]
+name = "andreg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.7",
+]
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+]
