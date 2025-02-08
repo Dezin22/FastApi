@@ -1,0 +1,17 @@
+Material: 
+https://davi-lucciola.notion.site/FastAPI-17a7b0fd580880feba0ddbb784071072?pvs=74
+
+Grupo no ZAP:
+https://chat.whatsapp.com/LM1Ca4FP3hl3rLh0Rc6ugj
+
+Novo gerenciador de pacotes do python (UV):
+https://docs.astral.sh/uv/
+
+Instalar UV no windows:
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+Instalar UV no Linux:
+https://davi-lucciola.notion.site/FastAPI-17a7b0fd580880feba0ddbb784071072?pvs=74
+
+Extensões VSCode
+- Even better toml
