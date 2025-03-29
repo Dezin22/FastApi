@@ -1,0 +1,17 @@
+# docker-compose.yml
+services:
+  db:
+    image: postgres:latest
+    container_name: task-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=task_db
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=4dm1n
+
+    volumes:
+      - task_db_data:/var/lib/postgres/data
+
+volumes:
+  task_db_data:
